@@ -1,3 +1,3 @@
 let gameName = "spiderman";
-gameName = "free fire"
+gameName = "free fire";
 console.log(gameName);
