@@ -7,4 +7,7 @@ const username = {
     firstName: "Aman",
     loggedIN: true
 }
-console.log(username)
+console.log(username.firstName);
+username.lastname = "choudhary";
+
+//Array 

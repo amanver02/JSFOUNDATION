@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt and Alert</title>
+    <script type="text/javascript">
+        function showPrompt() {
+            let name = prompt("Please enter your name:");
+
+            if (name) {
+                alert("Hello, " + name + "! Welcome to our website.");
+            } else {
+                alert("You did not enter your name!");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <p>Click the button to enter your name:</p>
+    <button onclick="showPrompt()">Click Me</button>
+
+</body>
+</html>
