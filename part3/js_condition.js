@@ -16,4 +16,10 @@ if(name == name2){
 }
 else{
     console.log("Not equal");
-}
+ }
+
+console.log(typeof(a));
+
+
+let aman = [1,2,3,4,5,6,7,8]
+console.log(aman.length);
